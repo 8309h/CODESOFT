@@ -6,6 +6,7 @@ display.innerText = "0";
 for (let i = 0; i < keys.length; i++) {
     keys[i].addEventListener("click", myCal);
 }
+ 
 
 function myCal(event) {
     let targetNumber = event.target.innerText;
